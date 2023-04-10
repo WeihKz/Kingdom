@@ -1,0 +1,19 @@
+h1{
+    color: red;
+    text-align: center;
+}
+h2{
+    color: white;
+    text-align: center;
+}
+body{
+    background-color: black;
+    width: 1400px;
+}
+.double{
+    width: 100%;
+    text-align: center;
+}
+.image{
+    text-align: center;
+}

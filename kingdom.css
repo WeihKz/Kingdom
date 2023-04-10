@@ -1,6 +1,10 @@
 h1{
     color: red;
     text-align: center;
+    font-size:75px;
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
 }
 h2{
     color: white;

@@ -5,6 +5,7 @@ h1{
     text-decoration: underline;
     font-weight: bold;
     font-style: italic;
+    font-family: Stencil Std, fantasy;
 }
 h2{
     color: white;
@@ -24,4 +25,8 @@ body{
 li{
     text-align: center;
     font-size: 50px;
+    font-family: OCR A Std, monospace;
 }
+a{
+    text-decoration: none;
+    text-color: 

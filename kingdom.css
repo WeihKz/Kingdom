@@ -32,6 +32,9 @@ a{
     text-decoration: none;
     text-color: white;
 }
+a:visited{
+    color: white;
+}
 .discord{
     text-align: center;
     color: white;

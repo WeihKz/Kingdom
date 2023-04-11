@@ -26,9 +26,9 @@ body{
 li{
     text-align: center;
     font-size: 50px;
-    font-family: OCR A Std, monospace;
+    font-family:'Orbitron', sans-serif;
 }
 a{
     text-decoration: none;
-    text-color: blue;
+    text-color: white;
 }

@@ -1,10 +1,17 @@
+body {
+    text-align: center;
+    background-color: black;
+    margin: 0 auto;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
 h1 {
     color: red;
     text-align: center;
     font-size:75px;
     text-decoration: underline;
     font-family: 'Tilt Prism', cursive;
-
 }
 
 h2 {
@@ -14,21 +21,14 @@ h2 {
     text-decoration: underline;
 }
 
-body {
-    text-align: center;
-    background-color: black;
-}
-
 .double {
-    width: 100%;
-    text-align: center;
+    max-width: 100%;
+    overflow: hidden;
 }
 
 .image {
     text-align: center;
     max-width: 100%;
-    margin-left: 2%;
-    margin-right: 2%;
 }
 
 li {
@@ -52,14 +52,11 @@ a:visited{
     font-size:30px;
 }
 
-button {
+.accueil {
     background-color: red;
     border-radius: 5px;
     padding: 10px;
     border-color:   red;
-}
-
-.accueil {
     margin-top: 2%;
     align-items: center;
     position: relative;

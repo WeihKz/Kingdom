@@ -1,4 +1,4 @@
-h1{
+h1 {
     color: red;
     text-align: center;
     font-size:75px;
@@ -6,46 +6,56 @@ h1{
     font-family: 'Tilt Prism', cursive;
 
 }
-h2{
+
+h2 {
     color: white;
     text-align: center;
     font-family:'Orbitron', sans-serif;
     text-decoration: underline;
 }
-body{
+
+body {
     background-color: black;
     width: 1400px;
 }
-.double{
+
+.double {
     width: 100%;
     text-align: center;
 }
-.image{
+
+.image {
     text-align: center;
 }
-li{
+
+li {
     text-align: center;
     font-size: 50px;
     font-family:'Orbitron', sans-serif;
 }
-a{
+
+a {
     text-decoration: none;
     text-color: white;
 }
+
 a:visited{
     color: white;
 }
+
 .discord{
     text-align: center;
     color: white;
     font-size:30px;
 }
-button{
+
+button {
     background-color: red;
     border-radius: 5px;
     padding: 10px;
     border-color:   red;
 }
-.accueil{
+
+.accueil {
     position: relative; top: 5px; left: 10px;
 }

@@ -37,3 +37,13 @@ a{
     color: white;
     font-size:30px;
 }
+button{
+    background-color: red;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-color:   red;
+}
+.accueil{
+    position: relative; top: 5px; left: 10px;
+}

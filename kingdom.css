@@ -10,7 +10,7 @@ h2{
     color: white;
     text-align: center;
     font-family:'Orbitron', sans-serif;
-
+    text-decoration: underline;
 }
 body{
     background-color: black;

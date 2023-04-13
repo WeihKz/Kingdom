@@ -1,9 +1,7 @@
 body {
     text-align: center;
     background-color: black;
-    margin: 0 auto;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin: 0 2%;
 }
 
 h1 {
@@ -19,18 +17,8 @@ h2 {
     text-align: center;
     font-family: 'Orbitron', sans-serif;
     text-decoration: underline;
-}
-
-.double {
-    max-width: 100%;
-    overflow: hidden;
-}
-
-.image {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    max-width: 100%;
+    margin-bottom: 5%;
+    font-size: 40px;
 }
 
 li {
@@ -43,16 +31,32 @@ a {
     text-decoration: none;
     color: white;
 }
+.simple {
+    width: 100%;
+    height: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.double {
+    max-width: 100%;
+    overflow: hidden;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 100%;
+}
+
 
 a:visited {
     color: white;
 }
 
-.discord {
-    text-align: center;
-    color: white;
-    font-size: 30px;
-}
 
 .accueil {
     background-color: red;
@@ -60,8 +64,27 @@ a:visited {
     padding: 10px;
     border-color: red;
     margin-top: 2%;
+    margin-bottom: 2%;
     align-items: center;
     position: relative;
     top: 5px;
     left: 10px;
+    font-size: 20px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.discord {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+@media (min-width: 800px) {
+    image {
+        margin-left: calc(10% + ((100vw - 800px) / 30));
+        margin-right: calc(10% + ((100vw - 800px) / 30));
+        min-width: 800px;
+    }
 }
